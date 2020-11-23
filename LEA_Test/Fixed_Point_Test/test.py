@@ -57,7 +57,7 @@ decFFT = getFFT(originalDecimals)
 # write CSV data to output file
 inputConvertedDecimal = []
 outputConvertedDecimal = []
-f = open("./Capstone/LEA_Test/output.csv", "w")
+f = open("./LEA_Test/output.csv", "w")
 f.write('dec, q15in (py), q15in (msp), q15inDec (py), q15out (msp), q15FFTdec (msp/py), decFFT (py), decFFTq15 (py)\n')
 for i in range(16):
     # decimal input
